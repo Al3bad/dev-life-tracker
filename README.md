@@ -1,5 +1,7 @@
 ## Dev Life Tracker Web App
 
+ [DEMO PAGE](https://al3bad.github.io/dev-life-tracker/)
+
 This single web page application has three main components:
 - SCHEDULE: display all planned schedules from a calendar
 - TASKS: display all the tasks/todos
