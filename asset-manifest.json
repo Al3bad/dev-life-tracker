@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dev-life-tracker/static/css/main.d1ed271e.chunk.css",
-    "main.js": "/dev-life-tracker/static/js/main.346c6ddb.chunk.js",
-    "main.js.map": "/dev-life-tracker/static/js/main.346c6ddb.chunk.js.map",
+    "main.js": "/dev-life-tracker/static/js/main.316a8b84.chunk.js",
+    "main.js.map": "/dev-life-tracker/static/js/main.316a8b84.chunk.js.map",
     "runtime-main.js": "/dev-life-tracker/static/js/runtime-main.8f1b2416.js",
     "runtime-main.js.map": "/dev-life-tracker/static/js/runtime-main.8f1b2416.js.map",
     "static/js/2.fd45a1df.chunk.js": "/dev-life-tracker/static/js/2.fd45a1df.chunk.js",
     "static/js/2.fd45a1df.chunk.js.map": "/dev-life-tracker/static/js/2.fd45a1df.chunk.js.map",
     "index.html": "/dev-life-tracker/index.html",
-    "precache-manifest.dc6e248575a9846c7342c1e3ad9a075c.js": "/dev-life-tracker/precache-manifest.dc6e248575a9846c7342c1e3ad9a075c.js",
+    "precache-manifest.a5e99d7d7efd6f58b3dfd6c322c24a28.js": "/dev-life-tracker/precache-manifest.a5e99d7d7efd6f58b3dfd6c322c24a28.js",
     "service-worker.js": "/dev-life-tracker/service-worker.js",
     "static/css/main.d1ed271e.chunk.css.map": "/dev-life-tracker/static/css/main.d1ed271e.chunk.css.map",
     "static/js/2.fd45a1df.chunk.js.LICENSE.txt": "/dev-life-tracker/static/js/2.fd45a1df.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8f1b2416.js",
     "static/js/2.fd45a1df.chunk.js",
     "static/css/main.d1ed271e.chunk.css",
-    "static/js/main.346c6ddb.chunk.js"
+    "static/js/main.316a8b84.chunk.js"
   ]
 }
