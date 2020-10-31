@@ -43,7 +43,6 @@ class App extends React.Component {
 
   componentDidMount() {
     this.setState({ isFetching: true, isFetchingActivity: true });
-    console.log(activities);
     setInterval(() => {
       const currentDate = moment();
       const currentTime = moment().format("LT");
