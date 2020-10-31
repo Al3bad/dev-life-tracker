@@ -6,13 +6,13 @@ const data = {
   weather: { temperature: 10, icon: "PARTLY_CLOUDY_NIGHT" },
   events: [
     {
-      id: "fOTgzRDUyQTctQkU2Qi00QzA5LUI2QTItNUQ0QTgyQzExRTY0",
+      id: "fOTgzRDUQTgyQzExRTY0",
       name: "Meeting with the team",
       start: "2020-05-02T15:00:00+10:00",
       end: "2020-05-02T16:00:00+10:00",
     },
     {
-      id: "fOTgzRDUyQTctQkU2Qi00QzA5LUI2QTItNUQ0QTgyQzExRTY4",
+      id: "fOTgtNUQ0QTgyQzExRTY4",
       name: "New Event",
       start: "2020-05-02T17:30:00+10:00",
       end: "2020-05-02T20:00:00+10:00",
