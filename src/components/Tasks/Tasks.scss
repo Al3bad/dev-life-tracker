@@ -1,0 +1,122 @@
+.tasks-list {
+  list-style: none;
+  text-align: left;
+  padding: 0 1rem;
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+  right: 1rem;
+  bottom: 2rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  &__item {
+    opacity: 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.label {
+  display: inline-block;
+  align-self: flex-start;
+  margin-right: 20px;
+
+  &__checkbox {
+    display: none;
+  }
+  &__check {
+    display: inline-block;
+    border-radius: 30%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border 0.3s ease;
+
+    i.icon {
+      opacity: 0;
+      font-size: 0.6rem;
+      color: transparent;
+      transition: opacity 0.3s 0.1s ease;
+      -webkit-text-stroke: 3px rgba(0, 0, 0, 0.5);
+    }
+
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+.label__checkbox:checked + .label__text .label__check {
+  animation: check 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
+  pointer-events: none;
+
+  .icon {
+    opacity: 1;
+    transform: scale(0);
+    color: #282c34;
+    -webkit-text-stroke: 0;
+    animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
+  }
+}
+
+@keyframes icon {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes check {
+  from {
+    background: transparent;
+  }
+  to {
+    background: skyblue;
+  }
+}
+
+.task-ready {
+  animation: task-ready 0.7s forwards;
+}
+
+.task-deleted {
+  animation: task-deleted 0.7s forwards;
+}
+
+@keyframes task-ready {
+  0% {
+    right: 5rem;
+    opacity: 0;
+  }
+  50% {
+    right: -1rem;
+  }
+  100% {
+    right: 0rem;
+    opacity: 1;
+  }
+}
+
+@keyframes task-deleted {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    left: 5rem;
+    opacity: 0;
+  }
+}
+

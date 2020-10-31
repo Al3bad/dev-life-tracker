@@ -1,0 +1,13 @@
+.title {
+    &__title {
+        padding: 2rem 0;
+        padding-bottom: 1rem;
+    }
+    &__line {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        border: 0;
+        border-bottom: 1px solid rgba(135, 207, 235, 0.2);
+    }
+}
